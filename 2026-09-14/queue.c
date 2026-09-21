@@ -23,22 +23,22 @@ int main() {
 
 void enQueue(int value) {
     if (rear == SIZE - 1)
-        printf("Full");
+        printf("Queue is Full\n");
     else {
         if (front == -1) {
             front = 0;
         }
         rear++;
         item[rear] = value;
-        printf("Inserted = %d", value);
+        printf("Inserted = %d\n", value);
     }
 }
 
 void deQueue() {
     if (front == -1)
-        printf("Empty");
+        printf("Queue is Empty\n");
     else {
-        printf("Deleted = %d", item[front]);
+        printf("Deleted = %d\n", item[front]);
         front++;
         if (front > rear) {
             front = rear = -1;
@@ -48,7 +48,7 @@ void deQueue() {
 
 void display() {
     if (rear == -1)
-        printf("Empty");
+        printf("Queue is Empty\n");
     else {
         int i;
         printf("The Queue = ");

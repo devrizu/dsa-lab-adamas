@@ -14,17 +14,17 @@ int isEmpty() {
 
 void push(int value) {
     if (isFull()) {
-        printf("Stack Overflow");
+        printf("Stack Overflow\n");
     } else {
         top++;
         stack[top] = value;
-        printf("Pushed %d", value);
+        printf("Pushed %d\n", value);
     }
 }
 
 int pop() {
     if (isEmpty()) {
-        printf("Stack Underflow");
+        printf("Stack Underflow\n");
         return -1;
     } else {
         int poppedValue = stack[top];
@@ -35,7 +35,7 @@ int pop() {
 
 int peek() {
     if (isEmpty()) {
-        printf("Stack Empty");
+        printf("Stack Empty\n");
         return -1;
     }
     return stack[top];
@@ -43,10 +43,10 @@ int peek() {
 
 void display() {
     if (isEmpty()) {
-        printf("Empty");
+        printf("Empty\n");
         return;
     }
-    printf("Stack Elements");
+    printf("Stack Elements: ");
     for (int i = top; i >= 0; i--) {
         printf("%d ", stack[i]);
     }
@@ -58,8 +58,8 @@ int main() {
     push(20);
     push(30);
     display();
-    printf("Top element = %d", peek());
-    printf("popped = %d", pop());
+    printf("Top element = %d\n", peek());
+    printf("Popped = %d\n", pop());
     display();
     return 0;
 }

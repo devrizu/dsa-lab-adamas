@@ -1,8 +1,10 @@
 <div align="center">
 
-# DSA Lab
+# 📘 Data Structures & Algorithms Laboratory
 
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![DSA](https://img.shields.io/badge/Topic-Data%20Structures%20%26%20Algorithms-blueviolet?style=flat) ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat)
+![Language](https://img.shields.io/badge/Language-C-blue.svg?style=for-the-badge&logo=c)
+![Topic](https://img.shields.io/badge/Topic-DSA-orange.svg?style=for-the-badge)
+![Coursework](https://img.shields.io/badge/Coursework-Active-success.svg?style=for-the-badge)
 
 </div>
 

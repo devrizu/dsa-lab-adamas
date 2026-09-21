@@ -10,7 +10,7 @@ Welcome to the repository for Data Structures and Algorithms lab assignments.
 
 This collection serves as a practical exploration of fundamental computer science concepts, implemented entirely in **C**. By building these programs from scratch, the repository demonstrates a hands-on understanding of memory management, pointer manipulation, and algorithmic efficiency. 
 
-The coursework covers a progressive range of topics—starting from basic array operations and searching, moving through various sorting algorithms, and advancing into core data structures like Stacks and Queues.
+The coursework covers a progressive range of topics - starting from basic array operations and searching, moving through various sorting algorithms, and advancing into core data structures like Stacks and Queues.
 
 ## 🧑‍💻 Learner Information
 * **Name:** Subhrakanti Bera
